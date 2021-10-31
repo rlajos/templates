@@ -17,7 +17,7 @@ standard: global
 ![](https://lh3.googleusercontent.com/pw/ACtC-3cm34Vi-NLWmR59WdUSQJkMD5W83lTeFl5QUg1r9jxQaMIZXPTEuDstSC9XX_QKhNvfMyq4MwOUxdh2le4mJn19VSOJQzEQb55Yr5XLGXEI4ItA0LejCib_Nkutuwtzo2ycGPxDcv2YWyW-4tcEprjZ_Q=w905-h474-no ""Back"")
 
 
-Detach the Switch from the Relays and use Switchmode 1 with:  ```Backlog SetOption114 1; SwitchMode 1```
+Detach the Switch from the Relays and use Switchmode 1 with:  ```Backlog SetOption114 1; SO1 1; SwitchMode 1```
 
 In Home Assistant I created a automation that switches off the Water Pump if it reaches the water limit:
 ```yaml
